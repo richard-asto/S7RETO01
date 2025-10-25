@@ -84,10 +84,10 @@ img {
     text-align: center;
     padding: 40px 0;
     font-size: 14px;
-    color: var(--color-gray);
+    color: var(--grey-color);
 }
 
 .contenedor__footer p span {
-    color: var(--color-negro);
+    color: var(--black-color);
     font-weight: bold;
 }
