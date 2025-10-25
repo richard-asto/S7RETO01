@@ -1,0 +1,43 @@
+:root {
+    --font-size--card-title: 24px;
+    --font-size--card-description: 16px;
+    --font-size--hashtag: 16px;
+    --font-size--section: 18px;
+    --font-size--button: 18px;
+    --primary-color: #2f80ed;
+    --secondary-color: #4f4f4f;
+    --black-color: #000;
+    --white-color: #fff;
+    --grey-color: #828282;
+    --grey-light-color: #e0e0e0;
+    --primary-font: "Monserrat", sans-serif;
+}
+
+/* Global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-letra);
+    background: #f2f2f2;
+    /* background-color: bisque; */
+}
+
+
+
+/*  Contenedor  */
+.contenedor {
+    width: 95%;
+    max-width: 1440px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+.contenedor__aside {
+    min-width: 370px;
+}
