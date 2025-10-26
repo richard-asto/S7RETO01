@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,69 +20,73 @@
                 <div>
                     <img src="img/profile.jpg" alt="foto de Perfil">
                 </div>
-                <h1>Billy Pearson</h1>
-                <p>Front-end Developer</p>
-                <div>
-                    <i></i>
+                <h1 class="perfil__nombre card-title">Billy Pearson</h1>
+                <p class="perfil__cargo">Front-end Developer</p>
+                <div class="perfil__contenedor__email">
+                    <i class="fas fa-envelope"></i>
                     <p>billy@example.com</p>
                 </div>
-                <div> <i></i>
+                <div class="perfil__contenedor__telefono"> <i class="fas fa-phone"></i>
                     <p>(+603) 546 624 342</p>
                 </div>
-                <p>
+                <p class="pefil__descripcion">
                     Self-motivated developer, who is willing to learn and create outstanding UI
                     applications.
                 </p>
             </section>
             <!--tarjeta experiencia-->
-            <section class="card">
-                <h1>experiences</h1>
-                <div>
-                    <div>
-                        <div>
-                            <article>
-                                <div>
+            <section class="contenedor__experiences  card">
+                <div class="experiences__tarjeta">
+                    <div class="experiences__contenedor_imagen">
+                        <h2 class="experiences__titulo card-title">Experiences</h2>
+                        <div class="experiences__cards">
+
+                            <article class="experiences__cards__tarjeta">
+                                <div class="tarjeta__contenedor__imagen">
                                     <img src="./img/EXP-1.png" alt="img-adidas" />
                                 </div>
-                                <div <p>
-                                    Jun 2015 - Aug 2016
+                                <div class="tarjeta__contendor_informacion">
+                                    <p class="tarjeta__contenedor_informacion__fecha">
+                                        Feb 2017 - Current
                                     </p>
-                                    <h3>
-                                        Junior front-end developer
+                                    <h3 class="tarjeta__contenedor__informacion__rotulo">
+                                        Front-end developer
                                     </h3>
-                                    <p>
+                                    <p class="tarjeta__contenedor__informacion__descripcion">
                                         Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
                                         feugiat malesuada molestie.
                                     </p>
                                 </div>
                             </article>
-                            <article>
-                                <div>
-                                    <img src="./img/EXP-2.png" alt="img-adidas" />
+                            <article class="experiences__cards__tarjeta">
+                                <div class="tarjeta__contenedor__imagen">
+                                    <img src="./img/EXP-2.png" alt="img-H&M" />
                                 </div>
-                                <div <p>
-                                    Jun 2015 - Aug 2016
+                                <div class="tarjeta__contendor_informacion">
+                                    <p class="tarjeta__contenedor_informacion__fecha">
+                                        Aug 2015 - Feb 2018
                                     </p>
-                                    <h3>
-                                        Junior front-end developer
+                                    <h3 class="tarjeta__contenedor__informacion__rotulo">
+                                        Full-stack developer
                                     </h3>
-                                    <p>
+                                    <p class="tarjeta__contenedor__informacion__descripcion">
                                         Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
                                         feugiat malesuada molestie.
                                     </p>
                                 </div>
                             </article>
-                            <article>
-                                <div>
-                                    <img src="./img/EXP-3.png" alt="img-adidas" />
+                            <article class="experiences__cards__tarjeta">
+                                <div class="tarjeta__contenedor__imagen">
+                                    <img src="./img/EXP-3.png" alt="img-nivea" />
                                 </div>
-                                <div <p>
-                                    Jun 2015 - Aug 2016
+                                <div class="tarjeta__contendor_informacion">
+                                    <p class="tarjeta__contenedor_informacion__fecha">
+                                        Jun 2015 - Aug 2016
                                     </p>
-                                    <h3>
+                                    <h3 class="tarjeta__contenedor__informacion__rotulo">
                                         Junior front-end developer
                                     </h3>
-                                    <p>
+                                    <p class="tarjeta__contenedor__informacion__descripcion">
                                         Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
                                         feugiat malesuada molestie.
                                     </p>
@@ -92,21 +97,25 @@
                 </div>
             </section>
             <!--tarjeta hobbie-->
-            <section class="card">
-                <h2 class="card-title">hobbies</h2>
+            <section class="contenedor__hobbies card">
+                <h2 class="hobbies__titulo  card-title">hobbies</h2>
                 <article>
                     <div>
-                        <img src="img/hobbie01.jpg" alt="hobbie01">
+                        <img src="./img/hobbie01.jpg" alt="img-hobbie" />
                     </div>
                     <h3 class="card-title">Gaming</h3>
-                    <p class="card-description">Quisque feugiat malesuada molestie.</p>
+                    <p class="card-description">
+                        Quisque feugiat malesuada molestie.
+                    </p>
+                    <br><br>
                 </article>
                 <article>
-                    <div class="tarjeta__contenedor__imagen">
+                    <div>
                         <img src="img/hobbie02.jpg" alt="hobbie02">
                     </div>
                     <h3 class="card-title">Cooking</h3>
                     <p class="card-description">Quisque feugiat malesuada molestie.</p>
+                    <br><br>
                 </article>
                 <article>
                     <div>
@@ -121,7 +130,6 @@
         <div class="contenedor__main">
             <!--Progress cards-->
             <section class="contenedor__progress">
-                
                 <!--Skills-->
                 <div class="contenedor__progress__skills card">
                     <h2 class="skills__title">Front-end</h2>
@@ -157,12 +165,14 @@
                 <div class="contenedor__progress__skills card">
                     <h2 class="skills__title">Design</h2>
                     <div class="skills__listado">
-                        <p class="skills__listado__item__titulo">Figma</p>
-                        <progress class="skills__listado__item__avance" max="100" value="70"></progress>
-                    </div>
-                    <div class="skills__listado">
-                        <p class="skills__listado__item__titulo">Photoshop</p>
-                        <progress class="skills__listado__item__avance" max="100" value="80"></progress>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">Figma</p>
+                            <progress class="skills__listado__item__avance" max="100" value="70"></progress>
+                        </div>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">Photoshop</p>
+                            <progress class="skills__listado__item__avance" max="100" value="80"></progress>
+                        </div>
                     </div>
                 </div>
             </section>

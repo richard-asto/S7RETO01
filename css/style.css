@@ -66,10 +66,88 @@ img {
 }
 
 /* Perfil */
+.perfil__nombre {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.perfil__cargo {
+    margin-top: 5px;
+    color: var(--color-gray);
+}
+
+.perfil__contenedor__email {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.perfil__contenedor__telefono {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.pefil__descripcion {
+    margin-top: 25px;
+    font-size: 18px;
+    color: var(--color-gray);
+}
 
 /* Experiences */
+.contenedor__experiences {
+    margin-top: 40px;
+}
+
+.experiences__titulo {
+    margin-bottom: 35px;
+}
+
+.experiences__cards__tarjeta {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 20px 0;
+}
+
+.tarjeta__contendor_informacion {
+    padding-left: 10px;
+}
+
+.tarjeta__contenedor_informacion__fecha {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--color-gray);
+    margin-bottom: 10px;
+}
+
+.tarjeta__contenedor__informacion__rotulo {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--color-negro);
+    margin-bottom: 20px;
+}
+
+.tarjeta__contenedor__informacion__descripcion {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--color-gray);
+}
 
 /* Hobbies */
+.contenedor__hobbies {
+    margin-top: 40px;
+}
+
+.hobbies__titulo {
+    margin-bottom: 35px;
+}
 
 /* Progress Card */
 .contenedor__progress {
