@@ -74,9 +74,62 @@ img {
 /* Skill */
 
 /* Section Titles */
+.section__title {
+    margin-top: 30px;
+}
+
+.section__title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--secondary-color);
+}
 
 /* Project list */
+.contenedor__proyectos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.proyecto__card {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 30px;
+}
+
+.proyecto__card__informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proyecto__card__hashtags {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+
+.proyecto__card__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.proyecto__card__buttons button {
+    padding: 8px 30px;
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.proyecto__card__buttons .boton-activo {
+    background-color: var(--primary-color);
+    color: white;
+}
 /* Blogs list */
 .contenedor__blog {
     margin-top: 20px;
@@ -133,7 +186,7 @@ img {
         gap: 20px;
     }
 
-    .card__blog__contenedor__informacion {
+    .card__blog__text {
         gap: 20px;
     }
 
